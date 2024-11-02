@@ -3,8 +3,11 @@
 # Kubernetes Deployment with NFS and HTTP Server
 
 ## Dockerfile
+
 - The Dockerfile sets up an Nginx server to serve static content.
 - The server is configured to serve the `hello.html` file stored on an NFS volume.
+- **Image Size**: The built Docker image (`my-http-server`) is approximately **440 MB**.
+
 
 ## Kubernetes Files
 1. **nfs-pvc.yaml** - Defines a Persistent Volume Claim (PVC) for the NFS storage.
