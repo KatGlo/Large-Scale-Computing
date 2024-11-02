@@ -1,5 +1,3 @@
-# Large-Scale-Computing
-
 # Kubernetes Deployment with NFS and HTTP Server
 
 ## Dockerfile
