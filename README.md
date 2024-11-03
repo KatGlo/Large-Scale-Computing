@@ -19,7 +19,7 @@
 - [Docker](https://docs.docker.com/get-docker/) installed.
 - [Helm](https://helm.sh/docs/intro/install/) installed (for NFS provisioner setup).
   
-## Commands Used for Deployment
+## Instructions to Run
 
 ```bash
 # Start Minikube
