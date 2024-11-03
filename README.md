@@ -28,7 +28,7 @@ minikube start --driver=docker
 # Configure Docker to Use Minikube’s Docker Daemon
 eval $(minikube docker-env)
 
-# Install Helm (if not already installed)
+# Install Helm 
 brew install helm
 
 # Add the Helm Stable Repository and Install NFS Server Provisioner
